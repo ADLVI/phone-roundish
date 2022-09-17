@@ -1,4 +1,4 @@
-# phone-rounish
+# phone-roundish
 the simple php method to check phone number roundish amount
 
 ## example
