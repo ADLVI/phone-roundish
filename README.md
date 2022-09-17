@@ -7,7 +7,6 @@ the simple php method to check phone number roundish amount
 
 require_once __DIR__."/check_phone_roundish.php";
 
-function test_check_phone_roundish() {
 $numbers = [
     "9900153555",
     "9129151718",
@@ -20,5 +19,5 @@ foreach($numbers as $number) {
     echo $number . " : " . check_phone_roundish($number,3)['score'] . "\n";
 }
 
-}
+
 ```
